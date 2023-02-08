@@ -1,0 +1,96 @@
+
+.fbPost_container {
+    margin: 10px 400px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    border: 2px solid white;
+    width: 480px;
+    height: 630px;
+    background-color: white;
+    border-radius: 5px;
+}
+.post_description{  
+    position: relative;
+    top: -15px;
+    color: black;
+    font-size: 14px;
+    padding: 13px;
+    text-align: justify;
+}
+.logo-img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.header{
+    display: flex;
+    margin:10px 10px;
+}
+#grid_id{
+    /* width: 90%; */
+    margin-top: -40px;
+    /* margin: auto; */
+}
+.world_icon{
+    color: gray;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+.dot_span_world_icon{
+    position: relative;
+    top: -3px;
+    left: 5px;
+    font-weight: 900;
+    color: gray;
+}
+.blue_tick{
+    position: relative;
+    left: 5px;
+    top: 2px;
+    /* margin-left: 3px; */
+    /* margin-top: 3px; */
+}
+.username_time span{
+    color: black;
+}
+.username_time{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.username{
+    font-size: 16px;
+    font-weight:bold;
+}
+.post_time{
+    font-size: 12px;
+    color: gray;
+}
+.like_comment_share_div{
+    border-top: 1px solid rgb(172, 168, 168);
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    margin:auto;
+}
+.footer_icons_div{
+    width: 130px;
+    margin-top:17px;
+    margin-left: 30px;
+    /* margin:107px auto; */
+    padding: 5px;
+}
+.footer_icons_div:hover{
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+}
+.footer_icons_name{
+    font-size: 16px;
+    /* margin-top: 20px; */
+}
+.footer_icons{
+    font-size:18px;
+    /* margin-top: 10px; */
+}
